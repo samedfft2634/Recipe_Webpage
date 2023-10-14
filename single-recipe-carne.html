@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Single Recipe</title>
+		<!-- favicon -->
+		<link
+			rel="shortcut icon"
+			href="./assets/favicon.ico"
+			type="image/x-icon"
+		/>
+		<!-- normalize -->
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<!-- font-awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		/>
+		<!-- main css -->
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="nav-center">
+				<!-- header  -->
+				<div class="nav-header">
+					<a href="index.html" class="nav-logo">
+						<img src="./assets/logo.svg" alt="simply recipes" />
+					</a>
+					<button type="button" class="btn nav-btn">
+						<i class="fas fa-align-justify"></i>
+					</button>
+				</div>
+				<!-- links  -->
+				<div class="nav-links">
+					<a href="index.html" class="nav-link">home</a>
+					<a href="about.html" class="nav-link">about</a>
+					<a href="tags.html" class="nav-link">tags</a>
+					<a href="recipes.html" class="nav-link">recipes</a>
+					<div class="nav-link contact-link">
+						<a href="contact.html" class="btn">contact</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- end of nav  -->
+		<!-- main  -->
+		<main class="page">
+			<div class="recipe-pag">
+				<section class="recipe-hero">
+					<img
+						src="./assets/recipes/recipe-1.jpeg"
+						class="recipe-hero-img"
+						alt="pancakes"
+					/>
+					<article>
+						<h2>Carne Asada</h2>
+						<p>
+							The literal translation of the term means Carne
+							(flesh, meat or beef) and Asada (roast, broiled,
+							grilled), typically translated to 'Grilled Meat' and
+							most often is seared in some way for that signature
+							charred flavor (which you can get with a grill pan
+							too using my recipe for Carne Asada in the oven.)
+							There are several cuts of beef used to make Carne
+							Asada including sirloin and tenderloin, but most
+							recipes call for either flank steak or skirt steak.
+							I've tried both and definitely prefer outside skirt
+							steak for its flavor and texture. Either way you'll
+							want to thinly slice the steak across the grain
+							before serving for maximum tenderness!
+						</p>
+						<!-- recipe icons  -->
+						<div class="recipe-icons">
+							<!-- single recipe icon  -->
+							<article>
+								<i class="fas fa-clock"></i>
+								<h5>prep time</h5>
+								<p>45 min.</p>
+							</article>
+							<!-- single recipe icon  -->
+							<article>
+								<i class="far fa-clock"></i>
+								<h5>cook time</h5>
+								<p>30 min.</p>
+							</article>
+							<!-- single recipe icon  -->
+							<article>
+								<i class="fas fa-user-friends"></i>
+								<h5>servings</h5>
+								<p>6 servings</p>
+							</article>
+						</div>
+						<!-- recipe tags  -->
+						<div class="recipe-tags">
+							Tags : <a href="tag-template.html">beef</a>
+							<a href="tag-template.html">breakfast</a>
+							<a href="tag-template.html">pancakes</a>
+							<a href="tag-template.html">food</a>
+						</div>
+					</article>
+				</section>
+				<!-- recipe content -->
+				<section class="recipe-content">
+					<article>
+						<h4>instructions</h4>
+						<!-- single instruction  -->
+						<div class="single-instruction">
+							<header>
+								<p>step 1</p>
+								<div></div>
+							</header>
+							<p>
+								In a large glass baking dish whisk together
+								Carne Asada marinade ingredients (jalapeño
+								through black pepper) until combined. Add skirt
+								steak in a single layer, turning to coat with
+								marinade. Cover and refrigerate for at least 1
+								hour, but no longer than 8 hours (longer will
+								begin to break down the meat - recipe note #3)
+							</p>
+						</div>
+						<!-- single instruction  -->
+						<div class="single-instruction">
+							<header>
+								<p>step 2</p>
+								<div></div>
+							</header>
+							<p>
+								When you're ready to grill: preheat an outdoor
+								grill to medium-high heat. Grill steaks for 7 to
+								10 minutes per side, turning once for
+								medium-rare. Remove steaks and allow to rest for
+								5 minutes.
+							</p>
+						</div>
+						<!-- single instruction  -->
+						<div class="single-instruction">
+							<header>
+								<p>step 3</p>
+								<div></div>
+							</header>
+							<p>
+								Slice thinly across the grain and serve.
+							</p>
+						</div>
+					</article>
+					<article class="second-column">
+						<div>
+							<h4>ingredients</h4>
+							<p class="single-ingredient">
+								½ cup fresh cilantro leaves chopped
+							</p>
+							<p class="single-ingredient">⅓ cup olive oil</p>
+							<p class="single-ingredient">
+								2 pounds skirt steak trimmed of excess fat
+							</p>
+						</div>
+						<div>
+							<h4>tools</h4>
+							<p class="single-tool">Hand Blender</p>
+							<p class="single-tool">Large Heavy Pot With Lid</p>
+							<p class="single-tool">Measuring Cups</p>
+							<p class="single-tool">Measuring Spoons</p>
+						</div>
+					</article>
+				</section>
+			</div>
+		</main>
+		<!-- end of main  -->
+		<!-- footer  -->
+		<footer class="page-footer">
+			<p>
+				&copy; <span id="date"></span>
+				<span class="footer-logo"> SimplyRecipes </span>
+				Built by <a href="https://johnsmilga.com/">Coding Addict</a>
+			</p>
+		</footer>
+		<script src="./js/app.js"></script>
+	</body>
+</html>
